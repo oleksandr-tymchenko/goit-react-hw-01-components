@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
 
+import { Title } from './Statistics.styled';
+
+
 export default function StatisticTitle({ title }) {
   return (
-    <h2 className="title">{title}</h2>
+    <Title>{title}</Title>
   );
 }
 

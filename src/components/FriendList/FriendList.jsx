@@ -6,12 +6,12 @@ import FriendListItem from './FriendListItem';
 export default function FriendList ({data}) {
     return (
         <>
-            {data.map(({id, isOline, avatar, name}) =>{
+            {data.map(({id, isOnline, avatar, name}) =>{
                 return (
                     <FriendListItem
                         key={id}
                         avatarUrl={avatar}
-                        status={isOline}
+                        status={isOnline}
                         userName={name}
                     
                     />

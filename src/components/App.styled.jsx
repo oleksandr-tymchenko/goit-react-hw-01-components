@@ -11,7 +11,7 @@ export const Container = styled.div`
     // flex-direction: column;
     // justyfy content: center;
     // alignItems: center;
-    fontSize: 40;
+    font-size: 40;
     color: #010101;
     background-color: grey;
     

@@ -1,14 +1,23 @@
+import { FaCircle } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
+// import { Card } from 'components/GeneralStyles/GeneralStyled';
+import { Item, Card} from './FriendList.styled';
 
-export default function FriendListItem({avatarUrl, userName, status}) {
+
+export default function FriendListItem({ avatarUrl, userName, status }) {
+  console.log({ avatarUrl, userName, status })
     return (
         
-    <li className="item">
-            <span className={status}></span>
-        <img className="avatar" src={avatarUrl} alt={userName} width="48" />
-        <p className="name">{userName}</p>
-    </li>
+      <Card>
+        <Item eventType={status}>
+            <FaCircle/>
+            
+            <img className="avatar" src={avatarUrl} alt={userName} width="48" />
+            <p className="name">{userName}</p>
+          </Item>
+        
+    </Card>
     )
 }
 

@@ -3,12 +3,12 @@ import user from './user.json'
 import ProfileStats from "./ProfileStats";
 import ProfileDescription from './ProfileDescription';
 
-// import { Card } from './Profile.styled';
+import { Card } from 'components/GeneralStyles/GeneralStyled';
 
 export default function Profile (props) {
   console.log(props);
     return (
-        <div >
+        <Card >
             
             <ProfileDescription
                 username={user.username}
@@ -20,5 +20,5 @@ export default function Profile (props) {
             <ProfileStats
                 stats={user.stats}
             />
-        </div>)
+        </Card>)
 }

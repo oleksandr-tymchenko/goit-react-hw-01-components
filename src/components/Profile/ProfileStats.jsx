@@ -1,23 +1,30 @@
 import PropTypes from "prop-types";
 
 
+import { Item, Label, ItemText  } from './Profile.styled';
+import { List } from "components/GeneralStyles/GeneralStyled";
+
+
 export default function ProfileStats(props) {
     const { followers, views, likes } = props.stats;
     return (
-     <ul className="stats">
-            <li>
-                <span className="label">Followers</span>
-                <span className="quantity">{followers}</span>
-            </li>
-            <li>
-                <span className="label">Views</span>
-                <span className="quantity">{views}</span>
-            </li>
-            <li>
-                <span className="label">Likes</span>
-                <span className="quantity">{likes}</span>
-            </li>
-    </ul>   
+      
+            <List>
+                <Item>
+                    <Label >Followers </Label> 
+                    <ItemText >{followers}</ItemText>
+                </Item>
+                <Item>
+                    <Label >Views </Label>
+                    <ItemText >{views}</ItemText>
+                </Item>
+                <Item>
+                    <Label >Likes </Label>
+                    <ItemText >{likes}</ItemText>
+                </Item>
+            </List>  
+       
+     
    )
 
 }

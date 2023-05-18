@@ -1,18 +1,21 @@
 import PropTypes from 'prop-types';
 import data from './data.json'
 
+import { List } from "components/GeneralStyles/GeneralStyled";
+import { Item } from './Statistics.styled';
+
 
 export default function StatisticList () {
     return (
-        <ul className="stat-list">
+        <List >
             {data.map(({id, label, percentage}) => (
 
-            <li key= {id} className="item">
+            <Item key= {id} className="item">
                 <span className="label">{label}</span>
                 <span className="percentage">{percentage}%</span>
-            </li>
+            </Item>
             ))}
-        </ul>
+        </List>
     )
 }
 

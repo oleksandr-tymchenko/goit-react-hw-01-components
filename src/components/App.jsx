@@ -1,3 +1,4 @@
+
 import FriendList from './FriendList/FriendList';
 import friends from './FriendList/friends.json';
 import Profile from './Profile/Profile';
@@ -10,6 +11,7 @@ import { Container } from './App.styled';
 export const App = () => {
   return (
     <Container>
+      
       {/* React homework template */}
       <Profile />
       <Statistics />
