@@ -3,11 +3,12 @@ import user from './user.json'
 import ProfileStats from "./ProfileStats";
 import ProfileDescription from './ProfileDescription';
 
+// import { Card } from './Profile.styled';
 
 export default function Profile (props) {
   console.log(props);
     return (
-        <div className="profile">
+        <div >
             
             <ProfileDescription
                 username={user.username}

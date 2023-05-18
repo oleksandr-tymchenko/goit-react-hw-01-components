@@ -16,7 +16,7 @@ code {
 
 /* При необхідності розкоментувати */
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -30,9 +30,10 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
