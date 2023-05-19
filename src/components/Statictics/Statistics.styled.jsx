@@ -20,6 +20,12 @@ align-items: center;
 width: 70px;
 color: #e6e6e6;
 /* border-radius: 0px 0px 10px 10px; */
+
+&:hover{
+  background-color: #efecec;  
+  color: #2b2b2b;
+}
+
 `
 
 export const Title = styled.h2`

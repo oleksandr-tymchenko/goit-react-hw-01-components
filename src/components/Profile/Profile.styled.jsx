@@ -49,6 +49,11 @@ background-color: wheat;
 border: 1px solid #848b60;
 border-radius: 0px 0px 10px 10px;
 
+&:hover{
+  background-color: #442f08;  
+  color:white;
+}
+
 `
 
 export const Label = styled.span`
