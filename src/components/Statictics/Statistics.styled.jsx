@@ -19,7 +19,6 @@ justify-content: space-evenly;
 align-items: center;
 width: 70px;
 color: #e6e6e6;
-/* border-radius: 0px 0px 10px 10px; */
 
 &:hover{
   background-color: #efecec;  

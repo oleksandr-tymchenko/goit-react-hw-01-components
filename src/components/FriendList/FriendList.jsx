@@ -15,8 +15,7 @@ export default function FriendList ({data}) {
                         userName={name}
                     
                     />
-                )
-            })
+                ) })
 
             }
         </>

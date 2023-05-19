@@ -7,7 +7,7 @@ margin: 10px;
 height: 400px;
 display: flex;
 flex-direction:column;
-/* justify-content: center; */
+
 text-align: center;
 align-items: center;
 gap: 10px;
@@ -58,21 +58,9 @@ border-radius: 0px 0px 10px 10px;
 
 export const Label = styled.span`
     
-   /* display: block;  */
 `
 export const ItemText = styled.span`
     font-weight: 700;
 `
 
 
-// export const Par = styled.p`
-// display: flex;
-// flex-wrap: wrap;
-// width: 60px;
-// text-align: center;
-// /* justify-content: space-around; */
-// margin-top: 10px;
-
-// // margin-left: auto;
-// // margin-right: auto;
-// `;

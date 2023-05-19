@@ -6,7 +6,7 @@ import ProfileDescription from './ProfileDescription';
 import { Card } from 'components/GeneralStyles/GeneralStyled';
 
 export default function Profile (props) {
-  console.log(props);
+
     return (
         <Card >
             

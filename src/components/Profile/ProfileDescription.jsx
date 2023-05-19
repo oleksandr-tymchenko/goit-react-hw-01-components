@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { CardWrap, Img, ImgWrap  } from './Profile.styled';
 
 
-export default function ProfileDescription(props) {
-    const { avatar, username, tag, location } = props;
+export default function ProfileDescription({ avatar, username, tag, location }) {
+
     return (
           
             <CardWrap>
@@ -16,19 +16,12 @@ export default function ProfileDescription(props) {
                     
                     />
                 </ImgWrap>
-
-                
-            
-            
-            {/* <ParWrap> */}
                 <h2 className="name">{username}</h2>
                 <p className="tag">{tag}</p>
                 <p className="location">{location}</p>
-                {/* </ParWrap> */}
-            </CardWrap>
-       
-   )
 
+            </CardWrap>
+   )
 }
     
 ProfileDescription.propTypes = {

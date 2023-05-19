@@ -5,6 +5,8 @@ import Profile from './Profile/Profile';
 import Statistics from './Statictics/Statistics';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json';
+import data from './Statictics/data.json'
+
 import { Container } from './App.styled';
 
 
@@ -12,9 +14,9 @@ export const App = () => {
   return (
     <Container>
       
-      {/* React homework template */}
+
       <Profile />
-      <Statistics />
+      <Statistics stats={ data} />
       <FriendList data={friends} />
       <TransactionHistory items={transactions} />
     </Container>

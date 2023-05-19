@@ -4,8 +4,9 @@ import { Title } from './Statistics.styled';
 
 
 export default function StatisticTitle({ title }) {
+
   return (
-    <Title>{title}</Title>
+    title && <Title>{title}</Title>
   );
 }
 

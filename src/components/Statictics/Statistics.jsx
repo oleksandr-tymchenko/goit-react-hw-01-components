@@ -4,11 +4,11 @@ import StatisticTitle from './StatisticsTitle'
 
 import { Card } from 'components/GeneralStyles/GeneralStyled'
 
-export default function Statistics() {
+export default function Statistics({stats}) {
     return (
     <Card>
-        <StatisticTitle title="Upload stats" />
-        <StatisticList/>
+        <StatisticTitle title="Upload stats"/>
+            <StatisticList/>
         
  
     </Card> 

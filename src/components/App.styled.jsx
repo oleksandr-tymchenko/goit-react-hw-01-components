@@ -5,12 +5,8 @@ export const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    // margin: 0 auto;
-    // height: 100vh;
-    // display: flex;
-    // flex-direction: column;
-    // justyfy content: center;
-    // alignItems: center;
+
+
     font-size: 40;
     color: #010101;
     background-color: grey;
@@ -18,11 +14,3 @@ export const Container = styled.div`
 `;
 
 
-
-
-//   height: 100vh;
-//         display: 'block';
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101',

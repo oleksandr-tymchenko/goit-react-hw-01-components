@@ -1,12 +1,11 @@
 import { FaCircle } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
-// import { Card } from 'components/GeneralStyles/GeneralStyled';
 import { Item, Card} from './FriendList.styled';
 
 
 export default function FriendListItem({ avatarUrl, userName, status }) {
-  console.log({ avatarUrl, userName, status })
+
     return (
         
       <Card>
