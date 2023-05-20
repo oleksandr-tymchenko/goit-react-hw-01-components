@@ -22,7 +22,7 @@ export default function FriendListItem({ avatarUrl, userName, status }) {
 
 FriendListItem.propTypes = {
   id: PropTypes.number,
-  avatarUrl: PropTypes.string,
-  userName: PropTypes.string,
-  status: PropTypes.bool,
+  avatarUrl: PropTypes.string.isRequired,
+  userName: PropTypes.string.isRequired,
+  status: PropTypes.bool.isRequired,
 };

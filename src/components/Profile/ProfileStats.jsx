@@ -5,8 +5,8 @@ import { Item, Label, ItemText  } from './Profile.styled';
 import { List } from "components/GeneralStyles/GeneralStyled";
 
 
-export default function ProfileStats(props) {
-    const { followers, views, likes } = props.stats;
+export default function ProfileStats({ followers, views, likes }) {
+    // const  = props.stats;
     return (
       
             <List>
